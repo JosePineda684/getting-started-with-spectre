@@ -1,4 +1,4 @@
-## Getting onto a cluster (Supercomputer)
+# Getting onto a cluster (Supercomputer)
 
 Since binary black hole simulations are very computationally expensive, this
 means that we have to use supercomputers for them to finish in a reasonable
