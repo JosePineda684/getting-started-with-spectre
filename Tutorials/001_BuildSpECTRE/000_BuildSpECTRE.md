@@ -16,7 +16,7 @@ directory. Inside the build directory, run the command `spectre_run_cmake`
 clusters). *IMPORTANT* Only run `spectre_run_cmake` in a build directory or else
 you'll have fun cleaning up the mess it makes in whatever directory you ran it
 in. If that command is not found, make sure you set up your environment
-correctly (most of the time you just need to `. ~/activate.sh). Make sure that
+correctly (most of the time you just need to `. ~/activate.sh`). Make sure that
 this command completes without any errors! If there are CMake Warnings that's
 okay. Now, if you `ls` you'll notice this directory has a lot of stuff in it
 now! Running `spectre_run_cmake` sets up your build directory so that you can
@@ -34,7 +34,7 @@ interrupted that's okay, it saves the progress. Once the executable is finished
 it'll say something like `built target SolveXcts`. After this, we'll want to
 build the command line interaface (cli). This executable unlocks a bunch of cool
 features that you can run right in the terminal. Most importantly, the bbh
-``pipeline'', referring to starting a simulation by generating initial data,
+"pipeline", referring to starting a simulation by generating initial data,
 simulating inspiral, transitioning and simulating ringdown, and extracting the
 waveforms. More details on doing so below. Now, run the command `make -j4 cli`.
 Then once that finishes, we'll run the command
